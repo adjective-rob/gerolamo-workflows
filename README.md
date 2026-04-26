@@ -104,6 +104,12 @@ placeholders:
 |----------|-------------|------------|---------|
 | [Domain Discovery](workflows/domain-discovery.md) | Deep-dive a domain: corpus search, web research gap analysis, meta molecule synthesis, build spec | Intermediate | 2 meta molecules, 1 composition, submitted molecules |
 | [Cross-Domain Intersection](workflows/cross-domain-intersection.md) | Find novel intersections between tracked domains, synthesize cross-cutting ideas, generate production spec | Advanced | Domain map, 2 meta molecules, 1 composition |
+| [Sleeper Hunt](workflows/sleeper-hunt.md) | Find high-quality under-the-radar projects, explore their neighborhoods, and build something from hidden gems | Intermediate | Deep analysis of 3 sleepers, 1 meta molecule, 1 composition |
+| [Stack Audit](workflows/stack-audit.md) | Evaluate your tech stack's defensibility, find weak links, discover alternatives, produce migration plan | Beginner | Weakest-link analysis, alternatives for each weak component, 1 comparison composition |
+| [Creator Deep Dive](workflows/creator-deep-dive.md) | Profile a creator's work, map their network, and predict what they might build next | Intermediate | Creator profile, network map, gap analysis, 1 predictive meta molecule |
+| [Investment Thesis](workflows/investment-thesis.md) | Generate a data-backed investment thesis — market dynamics, defensible players, frontier risks, buy/watch/pass | Advanced | Intelligence brief, landscape analysis, cluster map, 1 research composition |
+| [Model Selection](workflows/model-selection.md) | Compare foundation models for a specific use case — pricing, benchmarks, domination risk, recommendation | Beginner | Pricing comparison, benchmark comparison, domination analysis, concrete recommendation |
+| [Trend Spotter](workflows/trend-spotter.md) | Spot what's emerging across all domains — breakouts, converging trends, and 90-day predictions | Intermediate | Domain heat map, cross-domain sleepers, 1 trend report composition |
 
 ## Why this exists
 
@@ -113,8 +119,12 @@ Workflows are opinionated sequences that solve specific problems:
 
 - **"I want to understand a new domain"** → Domain Discovery
 - **"I want to find a novel project idea"** → Cross-Domain Intersection
-- **"I want to evaluate my tech stack"** → (coming soon) Stack Audit
-- **"I want to write an investment memo"** → (coming soon) Research Brief
+- **"I want to evaluate my tech stack"** → Stack Audit
+- **"I want to write an investment memo"** → Investment Thesis
+- **"I want to find hidden gems"** → Sleeper Hunt
+- **"I want to pick a foundation model"** → Model Selection
+- **"I want to know who's building what"** → Creator Deep Dive
+- **"I want to see what's emerging"** → Trend Spotter
 
 Each workflow chains 5-7 MCP tool calls with web research and creative synthesis in between. The steps are specific enough to be repeatable but open enough that the agent brings its own judgment. Run the same workflow twice and you'll get different (equally valid) results.
 
