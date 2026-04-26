@@ -9,6 +9,10 @@ tools_required:
   - trace_lineage
   - compose_molecules
 estimated_steps: 6
+placeholders:
+  - name: DOMAIN
+    description: The domain or technology area to explore
+    example: "privacy-preserving machine learning"
 you_will_get:
   - Top 5 corpus results for your domain
   - New molecules submitted from recent research

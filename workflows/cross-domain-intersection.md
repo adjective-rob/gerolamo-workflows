@@ -9,6 +9,7 @@ tools_required:
   - submit_meta_molecule
   - compose_molecules
 estimated_steps: 7
+placeholders: []
 you_will_get:
   - Full map of tracked domains with stats
   - Top 3 molecules from each selected domain
