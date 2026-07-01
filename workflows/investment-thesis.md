@@ -24,11 +24,11 @@ you_will_get:
 
 ## Steps
 
-1. Use `get_intelligence_brief` with topic '{{THESIS_AREA}}' and period '30d'. Show me the full brief — sleepers, trending molecules, new entrants, and breakouts. What's the overall narrative? Is this space heating up, cooling down, or consolidating?
+1. Use `get_intelligence_brief` with topic '{{THESIS_AREA}}' and period '30d'. Show me the full brief — sleepers, trending sources, new entrants, and breakouts. What's the overall narrative? Is this space heating up, cooling down, or consolidating?
 
 2. Use `analyze_competitive_landscape` for '{{THESIS_AREA}}'. Rank the top 15 players by velocity. Who's accelerating? Who's decelerating? Identify the velocity leaders and whether their momentum is sustainable or a spike.
 
-3. Use `find_defensible_clusters` to map the defensibility landscape. Where are the real moats? Are there clusters of high-defensibility molecules that share capabilities, or is defensibility scattered? Identify the top 3 most defensible entities and explain what makes them hard to replicate.
+3. Use `find_defensible_clusters` to map the defensibility landscape. Where are the real moats? Are there clusters of high-defensibility sources that share capabilities, or is defensibility scattered? Identify the top 3 most defensible entities and explain what makes them hard to replicate.
 
 4. For the top 3 most defensible entities, use `get_creator_network` for each creator. Are these solo builders or teams? Are they affiliated with companies that might commercialize this? Is there institutional backing? Map the human capital landscape.
 
@@ -36,7 +36,7 @@ you_will_get:
 
 6. Analyze frontier risk: which of these players are most vulnerable to being obsoleted by a major lab (OpenAI, Google, Anthropic, Meta)? Use the threat profiles from the brief and landscape analysis. Flag anything where a frontier lab has announced or shipped something adjacent.
 
-7. Use `compose_molecules` in 'research' mode with the entity IDs of the top 5 most defensible molecules. Add `user_context`: 'Write an investment thesis for the {{THESIS_AREA}} space. Include: market dynamics (growing/consolidating/fragmenting), the 3 most defensible bets and why, the top risks (especially frontier lab obsolescence), and a buy/watch/pass verdict for each of the top 5 entities. Factor in creator networks, velocity trends, and the funding landscape from web research.' Save it.
+7. Use `compose_molecules` in 'research' mode with the entity IDs of the top 5 most defensible sources. Add `user_context`: 'Write an investment thesis for the {{THESIS_AREA}} space. Include: market dynamics (growing/consolidating/fragmenting), the 3 most defensible bets and why, the top risks (especially frontier lab obsolescence), and a buy/watch/pass verdict for each of the top 5 entities. Factor in creator networks, velocity trends, and the funding landscape from web research.' Save it.
 
 ## Tips
 
