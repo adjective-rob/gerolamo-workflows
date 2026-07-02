@@ -65,7 +65,7 @@ difficulty: intermediate
 tools_required:
   - query_intelligence
   - submit_molecule
-  - submit_meta_molecule
+  - submit_concept
   - trace_lineage
   - compose_molecules
 estimated_steps: 6

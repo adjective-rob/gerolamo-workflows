@@ -7,7 +7,7 @@ tools_required:
   - get_creator_network
   - explore_connections
   - query_intelligence
-  - submit_meta_molecule
+  - submit_concept
 estimated_steps: 6
 placeholders:
   - name: CREATOR
@@ -33,7 +33,7 @@ you_will_get:
 
 5. Search the web for {{CREATOR}}'s most recent activity — blog posts, tweets, conference talks, new repos, paper preprints. What are they signaling about their direction? Does it align with the gaps you found in step 4?
 
-6. Create a concept using `submit_meta_molecule` that represents what {{CREATOR}} is most likely to build next — or what you think they SHOULD build based on the gap analysis. Use the entity IDs from their top 3 sources as `parent_ids`. In the reasoning field, explain why this prediction is informed by their portfolio patterns, their network, and the gaps in their neighborhood.
+6. Create a concept using `submit_concept` that represents what {{CREATOR}} is most likely to build next — or what you think they SHOULD build based on the gap analysis. Use the entity IDs from their top 3 sources as `parent_ids`. In the reasoning field, explain why this prediction is informed by their portfolio patterns, their network, and the gaps in their neighborhood.
 
 ## Tips
 

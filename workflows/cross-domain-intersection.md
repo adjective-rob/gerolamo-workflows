@@ -6,7 +6,7 @@ tools_required:
   - get_tracked_topics
   - query_intelligence
   - submit_source
-  - submit_meta_molecule
+  - submit_concept
   - compose_molecules
 estimated_steps: 7
 placeholders: []
@@ -28,7 +28,7 @@ you_will_get:
 
 4. Search the web for the most recent research at the intersection of these domains from the last 30 days. If you find papers or repos not in the corpus, submit them using `submit_source`. Summarize what you found.
 
-5. Create a concept using `submit_meta_molecule` that represents a cross-domain capability that doesn't exist yet — synthesized from the corpus results and external research. Use the IDs from the most relevant sources across all domains as `parent_ids`. The reasoning field should explain why this cross-domain idea is defensible and what makes it different from anything in either domain alone.
+5. Create a concept using `submit_concept` that represents a cross-domain capability that doesn't exist yet — synthesized from the corpus results and external research. Use the IDs from the most relevant sources across all domains as `parent_ids`. The reasoning field should explain why this cross-domain idea is defensible and what makes it different from anything in either domain alone.
 
 6. Create a second concept that takes the cross-domain idea and makes it concrete — a specific implementation, system, or tool that could be built. Use the first concept's ID as a parent.
 

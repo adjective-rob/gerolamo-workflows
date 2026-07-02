@@ -6,7 +6,7 @@ tools_required:
   - find_sleepers
   - explore_connections
   - explain_score
-  - submit_meta_molecule
+  - submit_concept
   - compose_molecules
 estimated_steps: 6
 placeholders:
@@ -31,7 +31,7 @@ you_will_get:
 
 4. Search the web for any recent activity around these 3 sleepers or their core technologies. Are they gaining momentum elsewhere? Has anyone written about them? Is there a community forming? This is your alpha — context the corpus doesn't have.
 
-5. Create a concept using `submit_meta_molecule` that represents a project combining the best ideas from these sleepers into something new. Use the 3 sleeper entity IDs as `parent_ids`. The concept should address a gap you identified in their neighborhoods — something none of them do alone but that becomes possible when you combine their approaches.
+5. Create a concept using `submit_concept` that represents a project combining the best ideas from these sleepers into something new. Use the 3 sleeper entity IDs as `parent_ids`. The concept should address a gap you identified in their neighborhoods — something none of them do alone but that becomes possible when you combine their approaches.
 
 6. Use `compose_molecules` in 'compose' mode to create a build spec combining the 3 sleeper sources and your concept. Add `user_context` explaining what kind of project this should be and why the combination of these hidden gems creates something the market doesn't have yet. Save it.
 
